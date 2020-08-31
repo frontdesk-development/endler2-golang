@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: endler2
+  description: endler2
+  annotations: 
+    github.com/project-slug: frontdesk-development/endler2-golang
+    backstage.io/github-actions-id: frontdesk-development/endler2-golang
+spec:
+  type: service
+  lifecycle: experimental
+  owner: esteban.barrios@trivago.com
